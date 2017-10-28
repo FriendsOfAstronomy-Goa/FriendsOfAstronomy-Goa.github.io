@@ -645,7 +645,7 @@ input::-ms-input-placeholder {
 
 /*home section*/
 .home{
-    background: url(../images/homebg.jpg) no-repeat 100% 100%;
+    background: url(../images/friends-of-astronomy-goa-erin-1.png) no-repeat 100% 100%;
     background-size: cover;
 }
 
@@ -713,17 +713,17 @@ input::-ms-input-placeholder {
 .service .nav-tabs>li>a{
     text-align: center;
     color: #444444;
-    width: 250px;
-    height: 180px;
+    width: 100px;
+    height: 125px;
     margin-left:20px;
     background: url(../images/stabmenubg.png) no-repeat top center;
     border:0px;
     transition: all 0.6s;
 }
-.service_tabe_menu.nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
-    background: url(../images/stabmenubghv.png) no-repeat top center;
-    width:250px;
-    height: 180px;
+.service_tabe_menu.nav-tabs>li.active>a:hover, .nav-tabs>li.active>a{
+    background: url(../images/stabmenubghv.png) no-repeat bottom center;
+    width:140px;
+    height: 140px;
     color:#fff;
 
 }
