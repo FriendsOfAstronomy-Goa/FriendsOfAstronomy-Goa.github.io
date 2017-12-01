@@ -57,7 +57,7 @@ jQuery(document).ready(function ($) {
 
     $('.single_features_slide').owlCarousel({
         responsiveClass: true,
-        autoplay: false,
+        autoplay: true,
         items: 1,
         loop: true,
         dots: true,
@@ -66,7 +66,7 @@ jQuery(document).ready(function ($) {
             "<i class='lnr lnr-chevron-left'></i>",
             "<i class='lnr lnr-chevron-right'></i>"
         ],
-        autoplayHoverPause: true
+        autoplayHoverPause: false
 
     });
 
