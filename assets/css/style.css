@@ -744,7 +744,7 @@ input::-ms-input-placeholder {
 }
 
 .service .mapdiv {
-    width: 550px; 
+/*    width: 550px; */
     height: 400px; 
 }
 
@@ -752,7 +752,7 @@ input::-ms-input-placeholder {
 
 .calender{
     padding-top: 60px;
-    margin: 10%; 
+    margin: 4%; 
 }
 
 .calender>iframe{
@@ -1011,6 +1011,12 @@ input::-ms-input-placeholder {
 
 }
 
+
+
+
+.othersservice .head_title h3{
+    padding-left: 20px;
+}
 
 /* Team section css */
 .team{

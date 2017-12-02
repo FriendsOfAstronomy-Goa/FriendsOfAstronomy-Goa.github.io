@@ -72,7 +72,7 @@ jQuery(document).ready(function ($) {
 
     $('.main_teastimonial_slider').owlCarousel({
         responsiveClass: true,
-        autoplay: false,
+        autoplay: true,
         items: 1,
         loop: true,
         dots: true,
