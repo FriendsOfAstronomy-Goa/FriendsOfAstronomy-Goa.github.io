@@ -1012,6 +1012,12 @@ input::-ms-input-placeholder {
 }
 
 
+
+
+.othersservice .head_title h3{
+    padding-left: 20px;
+}
+
 /* Team section css */
 .team{
     color:#fff;
