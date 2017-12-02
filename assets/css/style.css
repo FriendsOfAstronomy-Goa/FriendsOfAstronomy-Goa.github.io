@@ -277,7 +277,7 @@ ul{
     margin-bottom: 4rem;
 }
 .overlay {
-    background-color: rgba(41, 39, 34, 0.75);
+    background-color: rgba(41, 39, 34, 0.28);
     width: 100%;
     height: 670px;
 }
@@ -588,7 +588,9 @@ input::-ms-input-placeholder {
     padding: 0px 15px;
 }
 .navbar-brand>img {
+    width: 110px;
     max-width: 80%;
+    margin-top: -35px;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
     background-color:transparent;
@@ -741,6 +743,22 @@ input::-ms-input-placeholder {
     margin-top:100px;
 }
 
+.service .mapdiv {
+    width: 550px; 
+    height: 400px; 
+}
+
+/* calender section css*/
+
+.calender{
+    padding-top: 60px;
+    margin: 10%; 
+}
+
+.calender>iframe{
+/*    margin: 10%;*/
+    width: 100%;
+}
 
 /*features section css*/
 

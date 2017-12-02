@@ -42,7 +42,7 @@ jQuery(document).ready(function ($) {
 
     $('.main_home_slider').owlCarousel({
         responsiveClass: true,
-        autoplay: false,
+        autoplay: true,
         items: 1,
         loop: true,
         dots: true,
@@ -51,13 +51,13 @@ jQuery(document).ready(function ($) {
             "<i class='lnr lnr-chevron-left'></i>",
             "<i class='lnr lnr-chevron-right'></i>"
         ],
-        autoplayHoverPause: true
+        autoplayHoverPause: false
 
     });
 
     $('.single_features_slide').owlCarousel({
         responsiveClass: true,
-        autoplay: false,
+        autoplay: true,
         items: 1,
         loop: true,
         dots: true,
@@ -66,7 +66,7 @@ jQuery(document).ready(function ($) {
             "<i class='lnr lnr-chevron-left'></i>",
             "<i class='lnr lnr-chevron-right'></i>"
         ],
-        autoplayHoverPause: true
+        autoplayHoverPause: false
 
     });
 
@@ -102,33 +102,33 @@ jQuery(document).ready(function ($) {
 //        $(this).tab('show')
 //    });
 
-//skillbar section
-
-    var skillBarTopPos = jQuery('.skillbar').position().top;
-    jQuery(document).scroll(function () {
-        var scrolled_val = $(document).scrollTop().valueOf();
-        if (scrolled_val > skillBarTopPos - 250)
-            startAnimation();
-    });
-
-    function startAnimation() {
-        jQuery('.skillbar').each(function () {
-            jQuery(this).find('.skillbar-bar').animate({
-                width: jQuery(this).attr('data-percent')
-            }, 6000);
-        });
-    }
-    ;
+////skillbar section
+//
+//    var skillBarTopPos = jQuery('.skillbar').position().top;
+//    jQuery(document).scroll(function () {
+//        var scrolled_val = $(document).scrollTop().valueOf();
+//        if (scrolled_val > skillBarTopPos - 250)
+//            startAnimation();
+//    });
+//
+//    function startAnimation() {
+//        jQuery('.skillbar').each(function () {
+//            jQuery(this).find('.skillbar-bar').animate({
+//                width: jQuery(this).attr('data-percent')
+//            }, 6000);
+//        });
+//    }
+//    ;
 
 
 //---------------------------------------------
 // Counter 
 //---------------------------------------------
-
-    $('.statistic-counter').counterUp({
-        delay: 10,
-        time: 2000
-    });
+//
+//    $('.statistic-counter').counterUp({
+//        delay: 10,
+//        time: 2000
+//    });
 
 // main-menu-scroll
 
