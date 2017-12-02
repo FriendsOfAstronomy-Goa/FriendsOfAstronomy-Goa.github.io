@@ -588,8 +588,9 @@ input::-ms-input-placeholder {
     padding: 0px 15px;
 }
 .navbar-brand>img {
-    width: 165px;
+    width: 110px;
     max-width: 80%;
+    margin-top: -35px;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
     background-color:transparent;
