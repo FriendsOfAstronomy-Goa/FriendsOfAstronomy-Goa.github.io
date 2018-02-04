@@ -716,7 +716,7 @@ input::-ms-input-placeholder {
     text-align: center;
     color: #444444;
     width: 100px;
-    height: 125px;
+    height: 80px;
     margin-left:20px;
     background: url(../images/stabmenubg.png) no-repeat top center;
     border:0px;
@@ -725,7 +725,7 @@ input::-ms-input-placeholder {
 .service_tabe_menu.nav-tabs>li.active>a:hover, .nav-tabs>li.active>a{
     background: url(../images/stabmenubghv.png) no-repeat bottom center;
     width:140px;
-    height: 140px;
+    height: 80px;
     color:#fff;
 
 }
@@ -735,8 +735,8 @@ input::-ms-input-placeholder {
 }
 .service_tabe ul li a i{
     font-size:2rem;
-    margin-top:40px;
-    margin-bottom:25px;
+    margin-top:0px;
+    margin-bottom:8px;
 }
 
 .service .tab-content{
