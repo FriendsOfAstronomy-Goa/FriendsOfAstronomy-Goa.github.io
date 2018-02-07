@@ -57,6 +57,7 @@ jQuery(document).ready(function ($) {
 
     $('.single_features_slide').owlCarousel({
         responsiveClass: true,
+        autoHeight:true,
         autoplay: true,
         items: 1,
         loop: true,
