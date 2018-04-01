@@ -207,7 +207,6 @@
 
                                                         <div class="col-sm-6">
                                                             <div class="single_tab_img">
-<!--                                                                <img src="assets/images/featureslid1.jpg" alt="" />-->
                                                                 <div class=mapdiv id="margao-map"></div>
                                                             </div>
                                                         </div>
@@ -253,7 +252,6 @@
 
                                                         <div class="col-sm-6">
                                                             <div class="single_tab_img">
-<!--                                                                <img src="assets/images/featureslid1.jpg" alt="" />-->
                                                                 <div class=mapdiv id="cancona-map"></div>
                                                             </div>
                                                         </div>
@@ -277,7 +275,6 @@
 
                                                         <div class="col-sm-6">
                                                             <div class="single_tab_img">
-
                                                                 <div class=mapdiv id="porvorim-map"></div>
                                                             </div>
                                                         </div>
@@ -1342,6 +1339,13 @@
             };
             var panjim_map = new google.maps.Map(document.getElementById('panjim-map'), panjimMapOptions);
             var panjim_marker = new google.maps.Marker({position: {lat: 15.4969098, lng: 73.8248319}, map: panjim_map });
+            
+            /* Margao */
+            var margaoMapOptions = {
+                zoom: 16, center: new google.maps.LatLng(15.2856783,73.9620756), mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var margao_map = new google.maps.Map(document.getElementById('margao-map'), margaoMapOptions);
+            var margao_marker = new google.maps.Marker({position: {lat: 15.2856783, lng: 73.9620756}, map: margao_map });
 
              /* Mapusa */
             var mapusaMapOptions = {
@@ -1350,8 +1354,58 @@
             var mapusa_map = new google.maps.Map(document.getElementById('mapusa-map'), mapusaMapOptions);
             var marker = new google.maps.Marker({position: {lat: 15.5952633, lng: 73.8050567}, map: mapusa_map });
             
+            /* Cancona */
+            var canconaMapOptions = {
+                zoom: 16, center: new google.maps.LatLng(14.9961389,74.050519), mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var cancona_map = new google.maps.Map(document.getElementById('cancona-map'), canconaMapOptions);
+            var marker = new google.maps.Marker({position: {lat: 14.9961389, lng: 74.050519}, map: cancona_map });
+            
+            /* Porvorim */
+            var porvorimMapOptions = {
+                zoom: 16, center: new google.maps.LatLng(15.527053, 73.831295), mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var porvorim_map = new google.maps.Map(document.getElementById('porvorim-map'), porvorimMapOptions);
+            var marker = new google.maps.Marker({position: {lat: 15.527053, lng: 73.831295}, map: porvorim_map });
+            
+            /* Sankhali */
+            var sankhaliMapOptions = {
+                zoom: 16, center: new google.maps.LatLng(15.559461, 74.019736), mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var sankhali_map = new google.maps.Map(document.getElementById('sankhali-map'), sankhaliMapOptions);
+            var marker = new google.maps.Marker({position: {lat: 15.559461, lng: 74.019736}, map: sankhali_map });
+            
+            /* morjim */
+            var morjimMapOptions = {
+                zoom: 16, center: new google.maps.LatLng(15.631040, 73.736930), mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var morjim_map = new google.maps.Map(document.getElementById('morjim-map'), morjimMapOptions);
+            var marker = new google.maps.Marker({position: {lat: 15.631040, lng: 73.736930}, map: morjim_map });
+             
+            /* borim */
+            var borimMapOptions = {
+                zoom: 16, center: new google.maps.LatLng(15.366103, 74.024650), mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var borim_map = new google.maps.Map(document.getElementById('borim-map'), borimMapOptions);
+            var marker = new google.maps.Marker({position: {lat: 15.366103, lng: 74.024650}, map: borim_map });
+            
+            /* vasco */
+            var vascoMapOptions = {
+                zoom: 16, center: new google.maps.LatLng(15.391394, 73.808051), mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var vasco_map = new google.maps.Map(document.getElementById('vasco-map'), vascoMapOptions);
+            var marker = new google.maps.Marker({position: {lat: 15.391394, lng: 73.808051}, map: vasco_map });
+            
+            
             setInterval(function(){
                 google.maps.event.trigger(mapusa_map, 'resize');
+                google.maps.event.trigger(margao_map, 'resize');
+                google.maps.event.trigger(cancona_map, 'resize');
+                google.maps.event.trigger(porvorim_map, 'resize');
+                google.maps.event.trigger(sankhali_map, 'resize');
+                google.maps.event.trigger(morjim_map, 'resize');
+                google.maps.event.trigger(borim_map, 'resize');
+                google.maps.event.trigger(vasco_map, 'resize');
                 console.log('resized');
             }, 2800)
             google.maps.event.trigger(mapusa_map, 'resize');
