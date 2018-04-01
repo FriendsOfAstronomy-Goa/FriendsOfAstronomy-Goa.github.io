@@ -824,7 +824,7 @@ input::-ms-input-placeholder {
 }
 
 .about .single_about .single_ab_icon {
-    width: 15%;
+    width: 20%;
     float:left;
     position: relative;
 }
@@ -853,9 +853,9 @@ input::-ms-input-placeholder {
 .about .single_about .single_ab_icon:before {}
 
 .about .single_about .single_ab_text{
-    width:70%;
+    width:60%;
     float:left;
-    margin-left:20px;
+    margin-left:40px;
 }
 .about .single_ab_mision li{
     margin-bottom:10px;
