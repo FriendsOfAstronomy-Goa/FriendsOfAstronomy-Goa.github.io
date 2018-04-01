@@ -546,7 +546,7 @@ input::-ms-input-placeholder {
     -webkit-transition:all .3s;
     -moz-transition:all .3s;
     transition:all .3s;
-    height: 75px;
+   
 
 }
 
@@ -786,7 +786,9 @@ input::-ms-input-placeholder {
     font-size:0.8125rem;
     padding-top: 0.8em;
 }
-
+.single_features_slide{
+    max-height: 500px;
+}
 
 /*video section css*/
 
@@ -992,7 +994,7 @@ input::-ms-input-placeholder {
 }
 
 .othersservice .single_othersservice .single_othersservice_icon{}
-.othersservice .single_othersservice .single_othersservice_icon h4 i{
+.othersservice .single_othersservice .single_othersservice_icon h4 img{
     color:#444;
     font-size:2rem;
     background: url(../images/iconbg2.png) no-repeat center center;
@@ -1000,10 +1002,11 @@ input::-ms-input-placeholder {
     height:65px;
     line-height: 65px;
     text-align: center;  
-    margin-right: 10px;
+    margin-right: auto;
+    margin-left: auto;
     transition: 0.6s; 
 }
-.othersservice .single_othersservice:hover .single_othersservice_icon h4 i{
+.othersservice .single_othersservice:hover .single_othersservice_icon h4 img{
     background: url(../images/iconbgh2.png) no-repeat center center; 
     color:#fff;
 }
@@ -1392,7 +1395,7 @@ button.btn-md:hover {
 
 /*contact section css*/
 .contact{
-    background: url(../images/contactbg.png) no-repeat center center;
+/*    background: url(../images/contactbg.png) no-repeat center center;*/
     background-size: cover;
 }
 
@@ -1627,7 +1630,9 @@ button.btn-md:hover {
 
 }
 
-
+.telescope-photo{
+    max-height: 500px;
+}
 
 
 
