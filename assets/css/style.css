@@ -193,7 +193,7 @@ input::-ms-input-placeholder{color:#ddd;}
 .about_skill_area .about_tabe .about_tabe_menu li.active a:hover, .about_tabe_menu li.active a:focus{color:#fff;cursor:pointer;background:url(../images/skmenubgh.png) no-repeat top center;}
 .about_skill_area .about_tabe .about_tabe_menu li a:hover{color:#fff;background:url(../images/skmenubgh.png) no-repeat top center;}
 .about_skill_area .tab-content{margin-top:50px;display:inline-block;}
-.about_skill{margin-top:-38px;}
+/*.about_skill{margin-top:-38px;}*/
 .skillbar{background:transparent;display:block;height:7px;margin-bottom:64px;top:65px;position:relative;transition-delay:0s;transition-duration:.4s;transition-property:width, background-color;transition-timing-function:linear;width:100%;border:1px solid #dddddd;}
 .skillbar-title{color:#323232;font-size:14px;left:0;position:absolute;top:-40px;width:100%;}
 .skillbar-title span{display:block;float:right;margin-left:75px;margin-top:-30px;font-size:13px;}
